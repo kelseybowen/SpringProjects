@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.container {
+	margin: 50px;
+}
+
+h1 {
+	text-align: center;
+	color: orange;
+}
+
+table {
+	border: 5px solid;
+}
+

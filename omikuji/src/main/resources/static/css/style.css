@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+.container {
+	padding: 50px;
+	text-align: center;
+}
+
+h1 {
+	color: #3c80fe;
+}
+
+.main-content, .show-omikuji {
+	border: 3px black solid;
+	text-align: center;
+	padding: 20px;
+	margin: 50px;
+}
+
+.show-omikuji {
+	background-color: #9fc5f8;
+}

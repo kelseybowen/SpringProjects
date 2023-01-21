@@ -1,5 +1,115 @@
 @charset "UTF-8";
 
-div.header h1 {
-	color: #748dc9;
+/* -------- GENERAL -------- */
+* {
+	margin: 0 auto;
+	font-family: Arial;
+	/* border: 1px black solid; */
 }
+
+div.container {
+	border-radius: 20px;
+	padding: 30px;
+	background-color: white;
+	margin-top: 20px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+body {
+	background-color: rgb(161, 200, 188);
+}
+
+
+
+.jumbotron {
+	background-color: rgb(240, 240, 240);
+	border-radius: 20px;
+}
+
+.jumbotron > table {
+	width: 50%;
+}
+
+h1 {
+	font-weight: bold;
+	color: #343a3f;
+	font-size: 40px;
+}
+
+h2 {
+	color: #343a3f;
+	text-align: center;
+}
+
+div.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	margin-bottom: 10px;
+	color: RGB(140 180 167);
+	
+}
+
+.errors {
+	color: red;
+}
+
+/* -------- INDEX -------- */
+
+div.main, div.index {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+div.main-header {
+	margin: 20px;
+}
+
+.display-4 {
+	color: rgb(140 180 167);
+}
+
+div.right, div.left {
+	margin: 20px;
+	padding: 50px;
+	width: 80%;
+	
+}
+
+/* -------- DASHBOARD -------- */
+
+div.dashboard-header, div.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.left-header, div.right-header {
+	width: 50%;
+}
+
+div.right-header > * {
+	display: block;
+	text-align: right;
+	align-items: center;
+}
+
+/* -------- ADD -------- */
+
+.main-add, .main-edit {
+	width: 50%;
+}
+
+/* -------- SHOW -------- */
+
+
+
+
+
